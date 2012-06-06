@@ -55,13 +55,15 @@ public class Menu extends ListActivity{
 		switch(item.getItemId()){
 		case R.id.aboutUs:
 			Intent i = new Intent("com.prueba.ABOUT");
-			startActivity(i);
-			
+			startActivity(i);			
 			break;
 		case R.id.preferences:
-			
-			
-			break;		
+			Intent p = new Intent("com.prueba.PREFS");
+			startActivity(p);
+			break;
+		case R.id.exit:
+			finish();
+			break;	
 		}
 		return false;
 	}

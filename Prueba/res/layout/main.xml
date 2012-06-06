@@ -4,36 +4,29 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-   
     <TextView
+        android:id="@+id/tvDisplay"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Tu Total es 0" 
-        android:textSize="45dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:id="@+id/tvDisplay"
-        
-        />
-	
+        android:text="Tu Total es 0"
+        android:textSize="45dp" />
+
     <Button
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="Suma Uno"
-        android:layout_gravity="center"
-        android:textSize="20dp"
         android:id="@+id/bSuma"
-       
-     /> 
-     
-    <Button
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Resta Uno"
         android:layout_gravity="center"
-        android:textSize="20dp"
+        android:text="Suma Uno"
+        android:textSize="20dp" />
+
+    <Button
         android:id="@+id/bResta"
-     />
-	
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Resta Uno"
+        android:textSize="20dp" />
 
 </LinearLayout>

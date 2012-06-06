@@ -3,13 +3,12 @@
 
     <item
         android:id="@+id/aboutUs"
-        android:alphabeticShortcut="a"
-        android:numericShortcut="1"
         android:title="About Us"/>
     <item
         android:id="@+id/preferences"
         android:title="Preferences"/>
-	<item
+    <item
         android:id="@+id/exit"
         android:title="Exit"/>
+
 </menu>
