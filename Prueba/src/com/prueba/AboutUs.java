@@ -12,4 +12,5 @@ public class AboutUs extends Activity{
 		setContentView(R.layout.about);
 	}
 
+	
 }
